@@ -16,6 +16,7 @@ sls deploy -v
 To run a client application first edit the `client/src/config.ts` file to set correct parameters. And then run the following commands:
 
 const apiId = 'you will this apiId after deploying the backend succefuly to AWS'
+
 export const apiEndpoint = `https://${apiId}.execute-api.us-east-1.amazonaws.com/dev`
 
 export const authConfig = {
